@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصفحة الرئيسية</title>
+</head>
+<body>
+    <!-- العناوين -->
+    <h1>H1 <h2>H2 in H1</h2></h1>
+    <h2>H2</h2>
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <h6>H6</h6>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corrupti asperiores quidem dolore impedit consequatur alias praesentium natus maiores quisquam quam quia odio, ex dolor provident assumenda laborum voluptate repellat?</p>
+
+    <img src="1.png" alt="صورة">
+
+<a href="index.php?id=<?=Row['id']?>">
+  إضغط هما  
+</a>
+
+<form action="index.php" method="get">
+<input type="text" name="username" ><br>
+<select name="gender" id="" multiple>
+
+
+    <option value="male">ذكر</option>
+   
+    
+</select><br>
+<textarea name="info" id="" cols="30" rows="10"></textarea><br>
+<button type="submit">أرسل</button>
+</form>
+
+<table border="1" width="100%">
+    <tr>
+        <td>id</td>
+        <td>name</td>
+        <td>email</td>
+    </tr>
+while($row)
+    <tr>
+        <td>$row[id]</td>
+        <td >$row[name]</td>
+        <td >$row[email]</td>
+    </tr>
+    
+
+</table>
+
+</body>
+</html>
